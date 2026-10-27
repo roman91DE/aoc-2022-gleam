@@ -61,7 +61,7 @@ pub fn main() -> Nil {
     |> list.reverse
     |> list.take(3)
     |> list.reduce(int.add)
-  let two = case result_two{
+  let two = case result_two {
     Ok(n) -> n
     _ -> 0
   }
